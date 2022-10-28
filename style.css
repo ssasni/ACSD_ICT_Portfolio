@@ -1,0 +1,33 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
+
+/* CSS font */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    line-height: 1.7;
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    color: white;
+    background-color: crimson;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #bfbfbf;
+    border-radius: 10px;
+}
