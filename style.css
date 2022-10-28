@@ -31,3 +31,44 @@ html{
     background-color: #bfbfbf;
     border-radius: 10px;
 }
+
+/* CSS var */
+:root{
+    --font-large-color: white;
+    --font-small-color: #9f9f9f;
+    --main-color: #ff2626;
+    --bg-color-1: #131416;
+    --bg-color-2: #191a20;
+
+}
+h1{
+    font-size: 90px;
+    color: var(--font-small-color);
+}
+h2{
+    font-size: 46px;
+    color: var(--font-small-color);
+}
+h3{
+    font-size: 34px;
+}
+h4{
+    font-size: 30px;
+}
+h5{
+    font-size: 20px;
+}
+p,span{
+    font-size: 17px;
+    color: var(--font-small-color);
+}
+
+/* Classes */
+.container{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
