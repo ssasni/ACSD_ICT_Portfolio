@@ -72,3 +72,40 @@ p,span{
     justify-content: center;
     align-items: center;
 }
+
+/* Navigation */
+#nav{
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#nav .logo{
+    width: 5rem;
+    margin-left: 5rem;
+    z-index: 5;
+}
+#nav .logo img{
+    width: 100%;
+}
+#nav .nav-item{
+    display: flex;
+    list-style: none;
+    margin-right: 5rem;
+}
+#nav .nav-item li{
+    margin: 0 1rem;
+}
+#nav .nav-item li a{
+    text-decoration: none;
+    color: #c1c1c1;
+    font-size: 17px;
+    cursor: pointer;
+}
+#nav .nav-item li a:hover{
+    color: white;
+}
