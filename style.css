@@ -12,6 +12,7 @@
 body{
     line-height: 1.7;
     background-color: black;
+    min-height: 200vh;
 }
 html{
     scroll-behavior: smooth;
@@ -83,6 +84,12 @@ p,span{
     position: absolute;
     top: 0%;
     left: 0%;
+}
+#nav.fixed{
+    position: fixed;
+    height: 5rem;
+    background-color: #131416;
+    transition: all 0.3s ease-in-out;
 }
 #nav .logo{
     width: 5rem;
