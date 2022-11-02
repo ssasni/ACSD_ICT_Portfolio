@@ -83,6 +83,13 @@ p,span{
     margin-top: 20px;
     cursor: pointer;
 }
+.button2 a{
+    text-decoration: none;
+}
+.button2:hover{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
 
 /* Navigation */
 #nav{
@@ -94,6 +101,7 @@ p,span{
     position: absolute;
     top: 0%;
     left: 0%;
+    z-index: 999;
 }
 #nav.fixed{
     position: fixed;
@@ -152,4 +160,17 @@ p,span{
 #home .text-holder .button{
     display: block;
     text-align: center;
+}
+#home .my-img{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    right: 12rem;
+    bottom: -5px;
+    pointer-events: none;
+    opacity: 0.6;
+}
+#home .my-img img{
+    width: 100%;
 }
