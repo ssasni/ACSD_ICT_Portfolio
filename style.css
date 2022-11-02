@@ -73,6 +73,16 @@ p,span{
     justify-content: center;
     align-items: center;
 }
+.button2{
+    background-color: transparent;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
 
 /* Navigation */
 #nav{
@@ -115,4 +125,31 @@ p,span{
 }
 #nav .nav-item li a:hover{
     color: white;
+}
+
+/* Home */
+#home{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#home .text-holder h1{
+    font-weight: 300;
+}
+#home .text-holder h1 span{
+    font-size: 90px;
+    color: var(--main-color);
+}
+#home .text-holder h3{
+    font-weight: 300;
+}
+#home .text-holder h3 span{
+    font-size: 35px;
+    color: var(--main-color);
+}
+#home .text-holder .button{
+    display: block;
+    text-align: center;
 }
