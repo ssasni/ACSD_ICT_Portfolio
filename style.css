@@ -174,3 +174,34 @@ p,span{
 #home .my-img img{
     width: 100%;
 }
+#home .icons{
+    position: absolute;
+    bottom: 1rem;
+    z-index: 2;
+    right: 5rem;
+}
+#home .icons a{
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 35px;
+    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+#home .icons a i{
+    color: #1c1d24;
+}
+#home .icons a:hover{
+    transform: translateY(-10%);
+    background-color: var(--main-color);
+}
+#home .icons a:hover i{
+    color: white;
+}
