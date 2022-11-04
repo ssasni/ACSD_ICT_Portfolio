@@ -223,3 +223,20 @@ p,span{
     letter-spacing: 2px;
     color: var(--main-color);
 }
+
+/* Home */
+#about{
+    background: var(--bg-color-1);
+    width: 100%;
+}
+#about .container{
+    padding: 100px 0;
+}
+.about-img{
+    width: 25rem;
+    border: 10px solid #232323;
+    box-shadow: 0 25px 50px --12px rgb(0 0 0/ 25%);
+}
+.about-img{
+    width: 100%;
+}
