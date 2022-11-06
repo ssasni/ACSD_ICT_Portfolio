@@ -90,6 +90,33 @@ p,span{
     background-color: var(--main-color);
     border-color: var(--main-color);
 }
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.a-bar{
+    width: 5rem;
+    height: 4px;
+    background-color: var(--main-color);
+    margin-top: 15px;
+    position: relative;
+}
+/* .a-bar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+} */
+.sub-head{
+    max-width: 40rem;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 1rem;
+}
 
 /* Navigation */
 #nav{
@@ -277,4 +304,10 @@ p,span{
 }
 #about .button2{
     margin: 0;
+}
+
+/* Services */
+#service{
+    min-height: 100vh;
+    background-color: var(--bg-color-2);
 }
