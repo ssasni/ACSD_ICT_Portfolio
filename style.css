@@ -20,7 +20,7 @@ html{
 
 ::selection{
     color: white;
-    background-color: crimson;
+    background-color: #011E44;
 }
 
 /* Scroll bar */
@@ -37,7 +37,7 @@ html{
 :root{
     --font-large-color: white;
     --font-small-color: #9f9f9f;
-    --main-color: #ff2626;
+    --main-color: #093268;
     --bg-color-1: #131416;
     --bg-color-2: #191a20;
 
@@ -233,12 +233,12 @@ p,span{
     padding: 100px 0;
 }
 .about-img{
-    width: 25rem;
+    width: 26rem;
+}
+.about-img img{
+    width: 100%;
     border: 10px solid #232323;
     box-shadow: 0 25px 50px --12px rgb(0 0 0/ 25%);
-}
-.about-img{
-    width: 28%;
 }
 #about .text-wrapper{
     width: 35rem;
@@ -255,4 +255,26 @@ p,span{
 }
 #about .text-wrapper p{
     margin: 20px 0;
+}
+#about .abt-list{
+    margin: 10px 0;
+}
+#about .abt-list .list-itm{
+    display: inline-flex;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+#about .abt-list .list-itm label{
+    font-size: 15px;
+    font-weight:600;
+    width: 80px;
+    border-right: 1px solid #c1c1c1;
+}
+#about .abt-list .list-itm p{
+    font-size: 14px;
+    margin: 0;
+    padding-left: 1rem;
+}
+#about .button2{
+    margin: 0;
 }
