@@ -162,7 +162,7 @@ p,span{
     text-align: center;
 }
 #home .my-img{
-    width: 30rem;
+    width: 50rem;
     height: auto;
     position: absolute;
     z-index: 1;
@@ -224,7 +224,7 @@ p,span{
     color: var(--main-color);
 }
 
-/* Home */
+/* About */
 #about{
     background: var(--bg-color-1);
     width: 100%;
@@ -238,5 +238,21 @@ p,span{
     box-shadow: 0 25px 50px --12px rgb(0 0 0/ 25%);
 }
 .about-img{
-    width: 100%;
+    width: 28%;
+}
+#about .text-wrapper{
+    width: 35rem;
+    padding-left: 40px;
+}
+#about .text-wrapper h4{
+    font-weight: 500;
+}
+#about .text-wrapper h5{
+    margin-top: 15px;
+}
+#about .text-wrapper h5 span{
+    color: var(--main-color);
+}
+#about .text-wrapper p{
+    margin: 20px 0;
 }
