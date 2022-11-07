@@ -491,7 +491,6 @@ p,span{
 
 /* Contact */
 #contact{
-    min-height: 100vh;
     background-color: var(--bg-color-1);
 }
 #contact .a-bar::before{
@@ -535,6 +534,10 @@ form .form-rw{
 #contact .c-info{
     width: 40%;
 }
+#contact .c-list{
+    list-style: none;
+    padding-top: 20px;
+}
 .c-list .list-item{
     display: flex;
     align-items: center;
@@ -552,4 +555,11 @@ form .form-rw{
     flex-direction: column;
     border-left: 1px solid #879bb4;
     line-height: 22px;
+}
+.c-list .list-item .details label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.c-list .list-item .details p{
+    font-size: 15px;
 }
