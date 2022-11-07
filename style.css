@@ -308,7 +308,7 @@ p,span{
 
 /* Services */
 #service{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: var(--bg-color-2);
 }
 .s-card .card{
@@ -330,4 +330,29 @@ p,span{
 }
 .s-card .card h5{
     margin-bottom: 10px;
+}
+
+/* Resume */
+#resume{
+    background-color: var(--bg-color-1);
+}
+#resume .container{
+    gap: 2rem;
+}
+#resume .title{
+    margin-bottom: 10px;
+}
+/* #resume .a-bar::before{
+    border-color: var(--bg-color-1);
+} */
+.r-item{
+    width: 35rem;
+    padding: 32px 40px;
+    background-color: #191a20;
+    border-left: 2px solid var(--main-color);
+    position: relative;
+    border-bottom: 1px solid #313131;
+}
+.r-item:last-child{
+    border-bottom: none;
 }
