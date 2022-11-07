@@ -470,7 +470,6 @@ p,span{
     color: #1065d3;
 }
 .blog::before{
-    content: "7th November";
     position: absolute;
     top: 15px;
     left: 15px;
@@ -479,4 +478,50 @@ p,span{
     background-color: var(--main-color);
     padding: 5px;
     z-index: 2;
+}
+.b-1::before{
+    content: "7th November";
+}
+.b-2::before{
+    content: "20th September";
+}
+.b-3::before{
+    content: "19th October";
+}
+
+/* Contact */
+#contact{
+    min-height: 100vh;
+    background-color: var(--bg-color-1);
+}
+#contact .a-bar::before{
+    border-color: var(--bg-color-1);
+}
+
+form .form-rw{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.form-rw .data{
+    width: 50%;
+    display: block;
+}
+.data input, textarea{
+    background-color: #1c1d24;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid transparent;
+    font-size: 17px;
+    margin-top: 20px;
+    transition: border-bottom-color 0.3s ease;
+}
+.data textarea{
+    padding: 10px 10px 120px;
+}
+.data input:focus, textarea:focus{
+    border-bottom-color: var(--main-color);
 }
