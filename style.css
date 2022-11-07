@@ -356,3 +356,65 @@ p,span{
 .r-item:last-child{
     border-bottom: none;
 }
+#skill{
+    padding-bottom: 100px;
+}
+#skill .heading{
+    padding-top: 50px;
+}
+.skill-item .skill-bar{
+    width: 35rem;
+    height: 8px;
+    background-color: var(--bg-color-2);
+} 
+.skill-item .skill-bar .skill-line{
+    height: 100%;
+    background-color: var(--main-color);
+    position: relative;
+}
+.skill-item .skill-bar .skill-line::after{
+    content: "90%";
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    top: -30px;
+    right: -15px;
+}
+.skill-bar .skill-line.html{
+    width: 90%;
+}
+.skill-bar .skill-line.css{
+    width: 80%;
+}
+.skill-bar .skill-line.javascript{
+    width: 65%;
+}
+.skill-bar .skill-line.python{
+    width: 95%;
+}
+.skill-bar .skill-line.java{
+    width: 75%;
+}
+.skill-bar .skill-line.php{
+    width: 60%;
+}
+
+.skill-bar .skill-line.html::after{
+    content: "90%";
+}
+.skill-bar .skill-line.css::after{
+    content: "80%";
+}
+.skill-bar .skill-line.javascript::after{
+    content: "65%";
+}
+.skill-bar .skill-line.python::after{
+    content: "95%";
+}
+.skill-bar .skill-line.java::after{
+    content: "75%";
+}
+.skill-bar .skill-line.php::after{
+    content: "60%";
+}
+
