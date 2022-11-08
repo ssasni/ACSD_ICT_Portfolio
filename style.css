@@ -305,6 +305,9 @@ p,span{
 #about .button2{
     margin: 0;
 }
+#about .list-itm a{
+    text-decoration: none;
+}
 
 /* Services */
 #service{
