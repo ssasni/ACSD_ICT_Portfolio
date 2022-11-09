@@ -43,7 +43,7 @@ html{
 
 }
 h1{
-    font-size: 90px;
+    font-size: 100px;
     color: var(--font-small-color);
 }
 h2{
@@ -51,7 +51,7 @@ h2{
     color: var(--font-small-color);
 }
 h3{
-    font-size: 34px;
+    font-size: 30px;
 }
 h4{
     font-size: 30px;
@@ -79,7 +79,7 @@ p,span{
     outline: none;
     border: 1px solid white;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 6px 6px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -170,31 +170,32 @@ p,span{
     align-items: center;
     background-color: black;
 }
+
 #home .text-holder h1{
-    font-weight: 300;
+    font-weight: 450;
 }
 #home .text-holder h1 span{
-    font-size: 90px;
+    font-size: 100px;
     color: var(--main-color);
 }
 #home .text-holder h3{
-    font-weight: 300;
+    font-weight: 350;
 }
 #home .text-holder h3 span{
-    font-size: 35px;
+    font-size: 30px;
     color: var(--main-color);
 }
 #home .text-holder .button{
     display: block;
-    text-align: center;
+    text-align: left;
 }
 #home .my-img{
-    width: 50rem;
+    width: 55rem;
     height: auto;
     position: absolute;
     z-index: 1;
-    right: 12rem;
-    bottom: -5px;
+    right: 4rem;
+    bottom: -9px;
     pointer-events: none;
     opacity: 0.6;
 }
@@ -232,7 +233,7 @@ p,span{
 #home .icons a:hover i{
     color: white;
 }
-#home .scroll{
+/* #home .scroll{
     position: absolute;
     left: 5rem;
     bottom: 2rem;
@@ -249,7 +250,7 @@ p,span{
 #home .scroll a:hover{
     letter-spacing: 2px;
     color: var(--main-color);
-}
+} */
 
 /* About */
 #about{
@@ -664,17 +665,20 @@ input[type="checkbox"]:checked ~ .hamburger .ham3{
     #home .text-holder{
         text-align: center;
     }
+    #home .text-holder .button2{
+        margin: 2em 0 0 6em;
+    }
     #home .text-holder h1,
     #home .text-holder h1 span{
-        font-size: 45px;
+        font-size: 70px;
     }
     #home .text-holder h3,
     #home .text-holder h3 span{
-        font-size: 20px;
+        font-size: 25px;
     }
-    #home .scroll{
+    /* #home .scroll{
         display: none;
-    }
+    } */
     #home .icons{
         width: 100%;
         text-align: center;
