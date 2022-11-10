@@ -492,6 +492,9 @@ p,span{
 .b-3::before{
     content: "19th October";
 }
+.b-4::before{
+    content: "1st November";
+}
 
 /* Contact */
 #contact{
