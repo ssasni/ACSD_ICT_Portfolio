@@ -11,7 +11,7 @@
 body{
     line-height: 1.7;
     background-color: black;
-    min-height: 200vh;
+    min-height: 100vh;
 }
 html{
     scroll-behavior: smooth;
@@ -251,24 +251,6 @@ p,span{
 #home .icons a:hover i{
     color: white;
 }
-/* #home .scroll{
-    position: absolute;
-    left: 5rem;
-    bottom: 2rem;
-    text-transform: uppercase;
-}
-#home .scroll a{
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    cursor: pointer;
-    transition: letter-spacing 0.5s ease;
-    text-align: left;
-}
-#home .scroll a:hover{
-    letter-spacing: 2px;
-    color: var(--main-color);
-} */
 
 /* About */
 #about{
