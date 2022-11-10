@@ -1,7 +1,6 @@
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
-
-/* CSS font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -172,9 +171,11 @@ p,span{
 }
 
 #home .text-holder h1{
+    font-family: 'Lobster', cursive;
     font-weight: 450;
 }
 #home .text-holder h1 span{
+    font-family: 'Lobster', cursive;
     font-size: 100px;
     color: var(--main-color);
 }
@@ -197,7 +198,7 @@ p,span{
     right: 4rem;
     bottom: -9px;
     pointer-events: none;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 #home .my-img img{
     width: 100%;
