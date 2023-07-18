@@ -172,18 +172,21 @@ p,span{
 }
 
 #home .text-holder h1{
-    font-family: 'Lobster', cursive;
-    font-weight: 450;
+    font-family: 'arial black', sans-serif;
+    /* font-weight: 450; */
+    font-size: 100px;
 }
 #home .text-holder h1 span{
-    font-family: 'Lobster', cursive;
+    font-family: 'arial black', sans-serif;
     font-size: 100px;
     color: var(--main-color);
 }
 #home .text-holder h3{
+    font-family: 'arial black', sans-serif;
     font-weight: 350;
 }
 #home .text-holder h3 span{
+    font-family: 'arial black', sans-serif;
     font-size: 30px;
     color: var(--main-color);
 }
